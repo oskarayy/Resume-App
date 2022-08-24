@@ -1,0 +1,138 @@
+.card {
+  position: relative;
+  padding: 10% 7.5% 8%;
+  margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 40px 5px;
+  color: #fcfcfc;
+}
+
+.card span {
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+}
+
+.card h3 {
+  width: 90%;
+  margin: 10px 0 10px;
+  font-family: 'Prompt-Regular';
+  font-size: 20px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.card h4 {
+  font-family: 'Prompt-Regular';
+  margin: 10px 0 20px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.card p {
+  margin-bottom: 15px;
+  font-family: 'Roboto-Light';
+  font-size: 16px;
+  line-height: 165%;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+.card button {
+  position: absolute;
+  bottom: -5%;
+  right: 5%;
+  padding: 6px 12px;
+  background-color: #f3f3f3;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 2px #f3f3f3;
+  font-family: 'Prompt-Regular';
+  font-size: 12px;
+  cursor: pointer;
+  color: black;
+}
+
+@media (min-width: 390px) {
+  .card span {
+    font-size: 15px;
+  }
+  .card h3 {
+    margin: 12px 0 12px;
+    font-size: 22px;
+  }
+  .card h4 {
+    font-size: 15px;
+  }
+  .card button {
+    padding: 7px 14px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    padding: 5% 7.5% 3%;
+    margin-bottom: 40px;
+  }
+  .card span {
+    font-size: 15px;
+  }
+  .card h3 {
+    font-size: 22px;
+    margin: 15px 0 22.5px;
+  }
+  .card p {
+    font-size: 18px;
+  }
+  .card p:last-child {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    padding: 8% 7.5% 3%;
+    margin-bottom: 0;
+  }
+  .card h3 {
+    margin: 10px 0 15px;
+  }
+  .card p {
+    margin-bottom: 0;
+  }
+  .card p:nth-of-type(1) {
+    min-height: 175px;
+  }
+  .card p:last-child {
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card {
+    padding: 7.5% 7.5% 3%;
+  }
+  .card span {
+    font-size: 18px;
+  }
+  .card h3 {
+    font-size: 26px;
+    margin: 12px 0;
+  }
+  .card p {
+    font-size: 20px;
+  }
+  .card p:nth-of-type(1) {
+    min-height: 150px;
+  }
+  .card button {
+    padding: 7px 14px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+}

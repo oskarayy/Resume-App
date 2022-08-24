@@ -1,0 +1,142 @@
+.topbar,
+.navi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar h1 {
+  font-family: 'Regular';
+  font-weight: normal;
+  font-size: 20px;
+  color: #f3f3f3;
+}
+
+.image {
+  flex-basis: 36px;
+  height: 36px;
+  margin: 5px 2px 2px 0;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 50%;
+  filter: brightness(90%);
+}
+
+.navi {
+  margin-top: 15px;
+}
+
+.navi__item {
+  flex-basis: 20.5%;
+  filter: grayscale(30%);
+}
+
+.navi__item a {
+  text-decoration: none;
+}
+
+.navi__item span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 100%;
+  padding: 20%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+}
+
+.navi__item img {
+  width: 100%;
+}
+.navi__item h3 {
+  margin-top: 6px;
+  font-family: 'Light';
+  text-align: center;
+  font-size: 12px;
+  color: #f3f3f3;
+}
+
+@media (min-width: 390px) {
+  .topbar h1 {
+    font-size: 22px;
+  }
+  .image {
+    flex-basis: 40px;
+    height: 40px;
+  }
+  .navi {
+    margin-top: 30px;
+  }
+  .navi__item h3 {
+    margin-top: 8px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .topbar h1 {
+    font-size: 32px;
+  }
+  .image {
+    display: none;
+  }
+  .navi {
+    margin: 0;
+    flex-basis: 50%;
+  }
+  .navi__item {
+    flex-basis: 25%;
+  }
+  .navi__item span {
+    padding: 19%;
+  }
+  .navi__item h3 {
+    margin-top: 8px;
+    font-family: 'Light';
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+  }
+}
+@media (min-width: 1024px) {
+  .topbar h1 {
+    font-size: 28px;
+  }
+  .navi {
+    margin: 0;
+    flex-basis: 40%;
+  }
+  .navi__item {
+    flex-basis: 22.5%;
+  }
+  .navi__item span {
+    padding: 20%;
+  }
+  .navi__item h3 {
+    margin-top: 6px;
+  }
+}
+@media (min-width: 1440px) {
+  .topbar h1 {
+    font-size: 32px;
+  }
+  .navi {
+    flex-basis: 25%;
+  }
+  .navi__item h3 {
+    font-size: 15px;
+  }
+}

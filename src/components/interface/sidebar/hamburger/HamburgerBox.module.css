@@ -1,0 +1,76 @@
+.box {
+  overflow: hidden;
+}
+
+.box,
+.box--active {
+  display: block;
+  width: 25px;
+  height: 18px;
+  margin: 10px 0 10px 25px;
+  position: relative;
+  /* position: absolute; */
+  cursor: pointer;
+  z-index: 10;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  position: absolute;
+  display: block;
+  height: 2.5px;
+  width: 100%;
+  background-color: #eaeaea;
+  border-radius: 1.25px;
+  transform-origin: 50% 50%;
+  transition: transform 0.1s, top 0.1s 0.1s, opacity 0.1s 0.1s, left 0.1s 0.2s,
+    background-color 0.3s;
+}
+.box--active .bar1,
+.box--active .bar2,
+.box--active .bar3 {
+  transition: left 0.1s, top 0.1s 0.1s, opacity 0.1s 0.1s, transform 0.1s 0.2s,
+    background-color 0.3s;
+}
+
+.bar1 {
+  top: 0;
+  left: 1px;
+  transform: translate(0) rotate(0);
+}
+.bar2 {
+  top: calc(50% - 1.25px);
+  left: 7px;
+  opacity: 1;
+}
+.bar3 {
+  top: calc(100% - 2.5px);
+  left: 13px;
+  transform: translate(0) rotate(0);
+}
+
+.box--active .bar1 {
+  top: calc(50% - 1.25px);
+  left: 1px;
+  transform: translate(0) rotate(45deg);
+}
+.box--active .bar2 {
+  top: calc(50% - 1.25px);
+  left: 1px;
+  opacity: 0;
+}
+.box--active .bar3 {
+  top: calc(50% - 1.25px);
+  left: 1px;
+  transform: translate(0) rotate(-45deg);
+}
+
+@media (min-width: 768px) {
+  .box,
+  .box--active {
+    width: 28px;
+    height: 20px;
+    margin-left: 22px;
+  }
+}

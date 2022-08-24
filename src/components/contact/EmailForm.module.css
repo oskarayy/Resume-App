@@ -1,0 +1,193 @@
+.formbox {
+  flex: 1;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 5% 7.5%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.inputbox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0;
+}
+
+.inputbox label {
+  font-size: 16px;
+  margin: 0 0 2.5px 2px;
+}
+
+.inputbox span {
+  position: absolute;
+  display: inline-block;
+  right: 2px;
+  top: 0;
+  font-size: 13px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.inputbox .inputInvalid ~ span {
+  opacity: 1;
+}
+
+.inputbox input,
+.inputbox textarea {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Roboto-Light;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.inputbox input:focus,
+.inputbox textarea:focus {
+  border-color: transparent;
+  border-radius: 5px;
+  border: 1px solid rgb(51, 127, 234);
+  box-shadow: 0 0 2px 1px rgb(51, 127, 234);
+  outline: none;
+  background-color: #fff;
+}
+
+.inputbox input::placeholder,
+.inputbox textarea::placeholder {
+  font-family: Roboto-Thin;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 13px;
+}
+
+.inputbox:nth-child(3) {
+  flex: 1;
+}
+
+.inputbox:nth-child(3) textarea {
+  height: 100%;
+  line-height: 150%;
+}
+
+.btn-container {
+  margin: 20px auto 10px;
+}
+
+.inputbox .inputInvalid {
+  border: 1px solid rgb(251, 110, 110) !important;
+  background-color: rgb(248, 215, 215) !important;
+}
+
+@media (orientation: portrait) and (min-height: 800px) {
+  .formbox {
+    margin-top: 30px;
+  }
+  .form {
+    height: 80%;
+    padding: 7.5%;
+    border-radius: 12px;
+  }
+  .inputbox label {
+    font-size: 17px;
+    margin-bottom: 4px;
+  }
+  .inputbox input,
+  .inputbox textarea {
+    padding: 12px;
+    font-size: 17px;
+  }
+  .inputbox input::placeholder,
+  .inputbox textarea::placeholder {
+    font-size: 14px;
+  }
+  .btn-container {
+    margin: 25px auto 5px;
+  }
+}
+
+@media (orientation: landscape) {
+  .form {
+    height: 95%;
+    border-radius: 15px;
+  }
+  .inputbox label {
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+  .inputbox input::placeholder,
+  .inputbox textarea::placeholder {
+    font-size: 14px;
+  }
+  .btn-container {
+    margin: 30px auto 5px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .formbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    margin: 0 0 25px;
+  }
+  .form {
+    height: 90%;
+    width: 75%;
+  }
+  .inputbox {
+    margin: 10px 0;
+  }
+  .inputbox input,
+  .inputbox textarea {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .btn-container {
+    margin: 25px auto 0;
+  }
+  .inputbox .inputInvalid ~ span {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .formbox {
+    margin-bottom: 30px;
+  }
+  .form {
+    height: 90%;
+    width: 65%;
+    padding: 2.5% 7.5%;
+  }
+  .inputbox {
+    margin: 12.5px 0;
+  }
+  .inputbox label {
+    font-size: 19px;
+    margin-bottom: 6px;
+  }
+  .inputbox input,
+  .inputbox textarea {
+    padding: 12.5px;
+    font-size: 18px;
+  }
+  .inputbox input::placeholder,
+  .inputbox textarea::placeholder {
+    font-size: 15px;
+  }
+  .btn-container {
+    margin: 20px auto 0;
+  }
+  .inputbox .inputInvalid ~ span {
+    font-size: 15px;
+  }
+}

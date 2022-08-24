@@ -1,0 +1,30 @@
+.socials {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .socials {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  footer {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .socials {
+    width: 35%;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1440px) {
+  .socials {
+    width: 25%;
+  }
+}

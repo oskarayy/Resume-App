@@ -1,0 +1,1199 @@
+{
+  "de": {
+    "aboutme": {
+      "categories": [
+        {
+          "content": {
+            "headers": [
+              "Hallo!"
+            ],
+            "texts": [
+              "Ich bin ein junger, energiegeladener und neugieriger Mensch. Ich bin begierig darauf, neue Herausforderungen anzunehmen, um eine bessere Version meiner selbst zu werden und meine Forscherseele zu befriedigen. Ich liebe es, neue Menschen und ihre Geschichten kennenzulernen, denn jede ist einzigartig und bringt viele Lektionen und Tipps mit sich.",
+              "Ich bin sehr aufgeschlossen und bereit, anderen Menschen zu helfen und zu gemeinsamen Zielen beizutragen. Ich habe keine Angst vor Herausforderungen und gehe mit einer gehörigen Portion Aufregung an neue Situationen heran.",
+              "Ich hatte schon immer einen technischen Verstand und ein Interesse daran, logische Lösungen für jede Situation zu finden. Das hat mich dazu gebracht, mich im Programmieren zu versuchen, und obwohl ich erst am Anfang meiner Reise stehe, hat mir diese Richtung von Anfang an viele interessante Erfahrungen beschert."
+            ]
+          },
+          "id": "main",
+          "title": "Allgemein"
+        },
+        {
+          "content": {
+            "headers": [
+              "Reisen",
+              "Psychologie und Selbstentfaltung",
+              "Neue Technologien",
+              "Musik",
+              "Sport"
+            ],
+            "texts": [
+              "Ich liebe es, neue Orte, Menschen, Kulturen und Weltanschauungen kennen zu lernen und kann mir ein Leben ohne sie nicht vorstellen. Jeder Kontakt mit einer neuen Gemeinschaft oder auch nur ein Moment in einer bisher unbekannten Natur hinterlässt eine Spur im Gedächtnis, aus der man Kraft und Energie für den weiteren Lebensweg schöpfen kann.",
+              "Ich interessiere mich seit langem für die mentalen Aspekte des Alltags, für die Pflege von Emotionen und Gefühlen und für Möglichkeiten, das verborgene Potenzial in mir selbst zu entdecken. Ich habe eine kleine Schwäche dafür, mir Bücher zu kaufen, die sich mit dieser Art von Themen befassen, und genieße es, weitere interessante Einblicke von ihren Autoren zu erhalten.",
+              "Schon in der Grundschule habe ich versucht einige Aspekte von HTML und CSS zu nutzen. Mit der Zeit und der Entwicklung der Technik lernte ich Neues und Wissenswertes über neue Erfindungen, bis ich schließlich Elektroingenieur wurde und die neuesten Techniken zur Erstellung von Steuerkreisen und zur Programmierung von Produktionsmaschinen erlernte während ich im Ausland lebte und arbeitete.",
+              "Früher war ich Leadgitarrist in einer Rap-Core-Band. Unsere beiden größten Inspirationen waren die Bands Linkin Park und Limp Bizkit. Musik ist in meinem Leben immer präsent, und in Zukunft möchte ich unbedingt Schlagzeug spielen lernen.",
+              "Ich bin ein großer Fan des Fußballs, sowohl auf dem Spielfeld als Spieler als auch im Stadion oder vor dem Bildschirm als Fan. Meine größte Freude ist es, die spanische Liga zu sehen und natürlich den Spitzenwettbewerb - die Champions League."
+            ]
+          },
+          "id": "hobbies",
+          "title": "Interesse"
+        },
+        {
+          "content": {
+            "headers": [
+              "Karriere",
+              "Fremdsprachen",
+              "Reisen"
+            ],
+            "texts": [
+              "Frontend-Entwickler zu werden und an vielen interessanten Projekten zur Erstellung professioneller Webanwendungen teilzunehmen. Ich möchte nie aufhören, mich weiterzuentwickeln und neue Fähigkeiten zu erwerben.",
+              "Um zu lernen, sich fließend auf Spanisch zu unterhalten und um Englisch und Deutsch aufzufrischen.",
+              "Besuche alle Länder der Welt, lerne jede Kultur kennen und habe Freunde auf allen Kontinenten. Erleben Sie die Nordlichter live und das Finale der Fußballweltmeisterschaft."
+            ]
+          },
+          "id": "dreams",
+          "title": "Träume"
+        }
+      ],
+      "description": "Willkommen in meiner kleinen Welt!",
+      "paths": [
+        "main",
+        "hobbies",
+        "dreams"
+      ],
+      "title": "Über mich"
+    },
+    "contact": {
+      "formData": {
+        "button": "Senden",
+        "invalid": {
+          "from": "Die E-Mail-Adresse ist nicht korrekt",
+          "subject": "Der Titel ist zu kurz",
+          "text": "Bitte schreiben Sie mehr Inhalte"
+        },
+        "labels": {
+          "from": "Sender",
+          "subject": "Titel",
+          "text": "Nachricht"
+        },
+        "placeholders": {
+          "from": "Ihre E-Mail Adresse",
+          "subject": "Titel der Nachricht",
+          "text": "Hallo, wie kann ich Ihnen helfen?"
+        }
+      },
+      "title": "Kontakt"
+    },
+    "home": {
+      "bannerTexts": [
+        "Ich freue mich sehr, Sie auf meiner Homepage begrüßen zu dürfen.",
+        "Wenn Sie weitere Informationen benötigen, freue ich mich auf Ihre Kontaktaufnahme und werde Ihnen gerne antworten."
+      ],
+      "details": [
+        {
+          "id": "home-details-1",
+          "text": "Lebenslauf PDF"
+        },
+        {
+          "id": "home-details-2",
+          "text": "Sprache ändern"
+        },
+        {
+          "id": "home-details-3",
+          "text": "Zurück zum Intro"
+        }
+      ],
+      "headers": [
+        "Willkommen auf meiner Website!",
+        "Mehr Options"
+      ],
+      "id": "home-content",
+      "socials": {
+        "whatsapp": {
+          "info": "Scannen Sie den QR-Code und fügen Sie mich zu Ihren Kontakten hinzu!"
+        },
+        "zoom": {
+          "buttons": {
+            "call": "Anrufen",
+            "cancel": "Abbrechen"
+          },
+          "info": "Sie rufen bei Oskar Czerw an"
+        }
+      },
+      "topbarData": {
+        "header": "Willkommen!",
+        "navItems": [
+          "Lebenslauf",
+          "Über mich",
+          "Projekte",
+          "Kontakt"
+        ],
+        "paths": [
+          "/resume",
+          "/aboutme",
+          "projects",
+          "/contact"
+        ]
+      }
+    },
+    "id": "de",
+    "interface": {
+      "error": {
+        "data": {
+          "desc": "Lokale Daten können veraltet sein",
+          "lastUpdate": "Letztes Update",
+          "localBtn": "Weiter mit Lokale Daten",
+          "reloadBtn": "Nachladen",
+          "title": "Fehler beim Datendownload"
+        },
+        "mail": "Fehler beim Senden der Nachricht",
+        "nopage": "Unterseite existiert nicht"
+      },
+      "langModal": {
+        "active": "Aktive Sprache: Deutsch",
+        "header": "Bitte wählen Sie die Sprache: "
+      },
+      "loading": {
+        "data": "Data laden...",
+        "mail": "Email senden...",
+        "wait": "Bitte warten"
+      }
+    },
+    "projects": {
+      "content": {
+        "project-0": {
+          "description": "Eine Online-Visitenkarte und eine kleine Demonstration meiner Fähigkeiten, die ich den Besuchern gerne zeigen würde.",
+          "id": "project-0",
+          "title": "Virtueller Lebenslauf"
+        },
+        "project-1": {
+          "description": "eine kurze Beschreibung des Projekts von mehr als zwei Wörtern",
+          "id": "project-1",
+          "title": "Rechner"
+        },
+        "project-2": {
+          "description": "eine kurze Beschreibung des Projekts von mehr als zwei Wörtern",
+          "id": "project-2",
+          "title": "Aufgabenliste"
+        }
+      },
+      "links": {
+        "project-0": "https://github.com/",
+        "project-1": "https://github.com/",
+        "project-2": "https://github.com/"
+      },
+      "textGithub": "Sehen Sie meinen Code auf GitHub an",
+      "title": "Projekte"
+    },
+    "resume": {
+      "contactData": [
+        {
+          "content": "Oskar Czerw",
+          "id": "resume-contact-item-1",
+          "title": "Vor- und Nachname"
+        },
+        {
+          "content": "6 września 1997",
+          "id": "resume-contact-item-2",
+          "title": "Geburtsdatum"
+        },
+        {
+          "content": "Budziechów 112, 68-300 Lubsko, Polska",
+          "id": "resume-contact-item-3",
+          "title": "Kontaktadresse"
+        },
+        {
+          "content": "+48 669 315 303",
+          "id": "resume-contact-item-4",
+          "title": "Telefonnummer"
+        },
+        {
+          "content": "oskarczerw97@gmail.com",
+          "id": "resume-contact-item-5",
+          "title": "Email"
+        }
+      ],
+      "courses": {
+        "buttonTxt": "Bescheinigung",
+        "items": [
+          {
+            "id": "course-1",
+            "subtitle": "Samuraj Programowania",
+            "title": "Webentwickler von Grund auf"
+          },
+          {
+            "id": "course-2",
+            "subtitle": "Samuraj Programowania",
+            "title": "Front-End Advanced"
+          },
+          {
+            "id": "course-3",
+            "subtitle": "Samuraj Programowania",
+            "title": "JavaScript-Programmierung"
+          },
+          {
+            "id": "course-4",
+            "subtitle": "CODE:ME",
+            "title": "Kurs JavaScript + React"
+          },
+          {
+            "id": "course-5",
+            "subtitle": "Maximilian Schwarzmüller",
+            "title": "React - Das vollständige Handbuch",
+            "titleDesc": "+ Hooks, React Router, Redux"
+          },
+          {
+            "id": "course-6",
+            "subtitle": "Maximilian Schwarzmüller",
+            "title": "React Native - Der praktische Leitfaden"
+          }
+        ]
+      },
+      "education": {
+        "items": [
+          {
+            "description": "Technische Sekundarausbildung im Bereich Elektronik und Maschinenbau",
+            "id": "edu-1",
+            "subtitle": "CKZiU Elektronik Zielona Góra",
+            "time": "2013 - 2017",
+            "title": "Mechatroniker"
+          },
+          {
+            "description": "Erwerb neuer Kenntnisse in der Bedienung von Metallbearbeitungsmaschinen, der Programmierung von Maschinen, der Konstruktion von 3D-Modellen und der Koordinierung von Büroarbeiten.",
+            "id": "edu-2",
+            "subtitle": "CALEG Sp. z.o.o.",
+            "time": "2016",
+            "title": "Berufsausbildung"
+          }
+        ]
+      },
+      "experience": {
+        "items": [
+          {
+            "description": "Vorbereitung von industriellen Kontrollsystemen für Windturbinen und Plasmageneratoren. Unterauftragnehmer von Branchenführern wie Enercon, Softal, Nordex.",
+            "id": "exp-item-1",
+            "location": "Deutschland",
+            "subtitle": "Franke+Pahl GMBH",
+            "time": "06/2021 - 05/2022",
+            "title": "Industrielle Elektrotechniker"
+          },
+          {
+            "description": "Herstellen und Prüfen von Steuerungssystemverbindungen für Produktionsmaschinen. Vorbereitung der elektrischen Infrastruktur in Wohn- und Bürocontainern. Zulieferer für Pioniere der Branche wie Krones, Brückner, Recon.",
+            "id": "exp-item-2",
+            "location": "Deutschland",
+            "subtitle": "Eigenes Unternehmen",
+            "time": "10/2017 - 10/2020",
+            "title": "Industrielle Elektrotechniker"
+          }
+        ]
+      },
+      "paths": [
+        "contact-data",
+        "skills",
+        "courses",
+        "education",
+        "experience",
+        "questions-and-answers"
+      ],
+      "qa": {
+        "endtext": {
+          "content": [
+            "Danke, dass Sie einen Blick auf meine Online-Visitenkarte geworfen haben.",
+            "Ich hoffe, dass es eine angenehme Zeit war und dass alle benötigten Informationen leicht zu finden sind.",
+            "Einen schönen Tag noch!"
+          ],
+          "id": "qa-endtext"
+        },
+        "items": [
+          {
+            "description": [
+              "Ich bin ein junger, energiegeladener, enthusiastischer Mensch, der alles auf eine Karte gesetzt hat - eine Karte mit der Aufschrift: Web-Entwicklung",
+              "Dies ist erst der Anfang meiner Reise, aber ich hoffe, dass wir, wenn sich unsere Wege kreuzen, gemeinsam aufbrechen werden, um Preise für die besten Projekte zu gewinnen!"
+            ],
+            "id": "qa-item-1",
+            "title": "Warum ich?"
+          },
+          {
+            "description": [
+              "Ich bin auf der Suche nach meiner ersten Stelle in diesem Bereich, und der Mangel an kaufmännischer Erfahrung ist sicherlich auffallend. Aber ich kann Ihnen versichern, dass ich das, was mir an Erfahrung fehlt, durch Engagement und Eigenmotivation wettmache",
+              "Enttäuschung ist keine Option! Ich werde hundert Prozent von mir geben, um zu beweisen, dass es sich lohnt, auf mich zu setzen."
+            ],
+            "id": "qa-item-2",
+            "title": "Keine Erfahrung?"
+          },
+          {
+            "description": [
+              "Die Arbeit im IT-Bereich ist ein großer Traum von mir. Ich bemühe mich sehr, meine Kompetenzen systematisch zu verbessern und die von mir entwickelten Projekte immer besser zu machen.",
+              "Von den verschiedenen Karrierewegen habe ich mich für den Bereich Frontend entschieden, weil es mir große Freude und Befriedigung bereitet, die visuellen Ergebnisse meiner Arbeit zu sehen."
+            ],
+            "id": "qa-item3",
+            "title": "Warum IT?"
+          },
+          {
+            "description": [
+              "Ich habe mich schon immer für logische Herausforderungen und moderne Technologien interessiert, und die Arbeit als Programmierer ist für mich eine Chance, mein Potenzial voll auszuschöpfen.",
+              "Ich möchte mich ständig weiterentwickeln, an der Entwicklung von Projekten mitwirken, die die neuesten Technologien nutzen, und dabei viele interessante und leidenschaftliche Menschen kennen lernen."
+            ],
+            "id": "qa-item-4",
+            "title": "Wonach suche ich?"
+          }
+        ]
+      },
+      "skills": {
+        "generalSkills": [
+          "Flexibilität zur Anpassung an ein neues Umfeld",
+          "Unabhängig arbeiten und in einer Gruppe zusammenarbeiten",
+          "Offene Einstellung und problemlos neue Leute kennenlernen",
+          "Verantwortungsbewusstes Vorgehen bei allen mir anvertrauten Aufgaben",
+          "Schnelle Aufnahme neuer Informationen und selbständiges Ziehen von Schlussfolgerungen",
+          "Bereitschaft, Anleitung und Kommentare zu meiner Arbeit zu erhalten",
+          "Ability to plan the rhythm of the day and arrange the work schedule",
+          "Kommunikation in Fremdsprachen - Englisch und Deutsch",
+          "Grundkenntnisse der spanischen Sprache"
+        ],
+        "headers": [
+          "Technische",
+          "Allgemein"
+        ],
+        "techSkills": [
+          "Schreiben von semantischem HTML- und CSS-Code gemäß der BEM-Spezifikation.",
+          "CSS Flex und CSS Grid verwenden",
+          "SCSS/SACC-Präprozessoren verwenden",
+          "Suche und Manipulation des Aussehens und der Funktionsweise von DOM-Interface-Elementen",
+          "Umstrukturierung, Organisation und Nutzung der vom Server abgerufenen Daten",
+          "Erstellung reaktiver Single-Page-Webanwendungen mit der React-Bibliothek",
+          "Verwendung von Bibliotheken für React wie React Router oder Redux.js",
+          "Erstellung von serverseitig gerenderten Anwendungen mit dem Next.js-Framework",
+          "Erstellung mobiler Anwendungen mit React Native-Technologie"
+        ]
+      },
+      "subtitles": [
+        "Persönliche Daten",
+        "Fähigkeiten",
+        "Kurse",
+        "Bildung",
+        "Erfahrung",
+        "Q&A"
+      ],
+      "title": "Lebenslauf"
+    },
+    "welcome": {
+      "banners": [
+        {
+          "header": "Mein virtuelles Portfolio",
+          "text": "Ich habe diese Bewerbung erstellt, damit Sie mich und meine Fähigkeiten leicht kennen lernen können."
+        },
+        {
+          "header": "Junior Dev sucht Arbeit!",
+          "text": "Ich möchte ein IT-Abenteuer beginnen und an der Erstellung von denkwürdigen Inhalten mitwirken."
+        },
+        {
+          "header": "Erstellen von mobilen Apps",
+          "text": "Mein Traum und berufliches Ziel ist es, viele großartige Web- und Mobilanwendungen zu entwickeln."
+        }
+      ],
+      "footerText": {
+        "back": "Zurück",
+        "finish": "Start!",
+        "next": "Weiter"
+      },
+      "skipText": "Skip.."
+    }
+  },
+  "en": {
+    "aboutme": {
+      "categories": [
+        {
+          "content": {
+            "headers": [
+              "Welcome!"
+            ],
+            "texts": [
+              "I am a young, energetic and curious man. I am open to taking up new challenges to become a better version of myself. I love meeting new people and listening to their life's stories, because each of them is unique and carries many lessons and tips.",
+              "From my point of view, I am a kind person and I am happy to help other people and contribute to achieving common goals. I am not afraid of challenges and I approach new situations with a full dose of excitement.",
+              "I have always had a technical mind and an interest in finding logical solutions to any situation. It pushed me to try my hand at programming and although I am only at the beginning of my path, this direction provides me with many interesting experiences from the very first day."
+            ]
+          },
+          "id": "main",
+          "title": "Main"
+        },
+        {
+          "content": {
+            "headers": [
+              "Travelling",
+              "Psychology & Self-development",
+              "New technologies",
+              "Music",
+              "Sport"
+            ],
+            "texts": [
+              "I love to get to know new places, people, cultures and world views and cannot imagine life without them. Every contact with a new community or even just a moment in a previously unknown nature leaves a trace in the memory, from which one can draw strength and energy for the further path of life.",
+              "For a long time I have been interested in the mental aspects of everyday life, nurturing emotions and feelings, as well as ways to discover your dormant potential. I have a slight weakness for buying myself books dedicated to this type of subject matter and enjoy absorbing more interesting insights from their authors.",
+              "Already in elementary school, I tried to use some aspects of HTML and CSS. Over time and the development of technology, I learned about new inventions and curiosities, until I finally became an electrical engineer and during my stay and work abroad, I learned the latest techniques of creating control systems and programming for production machines.",
+              "In the past, I was the lead guitarist in a rap-core music band. Our two biggest inspirations were the bands Linkin Park and Limp Bizkit. All the time music is present in my life and in the future I would definitely like to learn to play drums.",
+              "I am a big fan of soccer, both on the field as a player and in the stadium or in front of the screen as a fan. My greatest joy is watching the Spanish league and, of course, the top-level competition - Champions League."
+            ]
+          },
+          "id": "hobbies",
+          "title": "Hobbies"
+        },
+        {
+          "content": {
+            "headers": [
+              "Career",
+              "Languages",
+              "Travel destinations"
+            ],
+            "texts": [
+              "Become a Frontend Developer and participate in many interesting projects by creating professional Internet applications. Never stop developing and learning new skills.",
+              "Learn to speak fluent Spanish and improve my English and German skills.",
+              "Visit every country in the world, experience every culture and have friends on every continent. See the Northern Lights and the World Cup final game live at the stadium."
+            ]
+          },
+          "id": "dreams",
+          "title": "Dreams"
+        }
+      ],
+      "description": "Welcome to my little world!",
+      "paths": [
+        "main",
+        "hobbies",
+        "dreams"
+      ],
+      "title": "About me"
+    },
+    "contact": {
+      "formData": {
+        "button": "Send",
+        "invalid": {
+          "from": "The email address is incorrect",
+          "subject": "The entered title is too short",
+          "text": "Please write more content"
+        },
+        "labels": {
+          "from": "From",
+          "subject": "Title",
+          "text": "Message"
+        },
+        "placeholders": {
+          "from": "Your email address",
+          "subject": "Message subject",
+          "text": "Hello, how can I help you?"
+        }
+      },
+      "title": "Contact"
+    },
+    "home": {
+      "bannerTexts": [
+        "I am so glad you are here to check out my portfolio.",
+        "If you are interested in cooperation or looking for more information, I look forward to hearing from you."
+      ],
+      "details": [
+        {
+          "id": "home-details-1",
+          "text": "Resume PDF"
+        },
+        {
+          "id": "home-details-2",
+          "text": "Change site language"
+        },
+        {
+          "id": "home-details-3",
+          "text": "Back to intro"
+        }
+      ],
+      "headers": [
+        "Let's get to know each other!",
+        "More options"
+      ],
+      "id": "home-content",
+      "socials": {
+        "whatsapp": {
+          "info": "Scan the QR code and add me to your contacts!"
+        },
+        "zoom": {
+          "buttons": {
+            "call": "Call",
+            "cancel": "Cancel"
+          },
+          "info": "You are calling to: Oskar Czerw"
+        }
+      },
+      "topbarData": {
+        "header": "Welcome!",
+        "navItems": [
+          "Resume",
+          "About me",
+          "Projects",
+          "Contact"
+        ],
+        "paths": [
+          "/resume",
+          "/aboutme",
+          "projects",
+          "/contact"
+        ]
+      }
+    },
+    "id": "en",
+    "interface": {
+      "error": {
+        "data": {
+          "desc": "Local data may be out of date",
+          "lastUpdate": "Last update",
+          "localBtn": "Continue with Local Data",
+          "reloadBtn": "Try again",
+          "title": "Failed to fetch the data from database"
+        },
+        "mail": "Email sending error",
+        "nopage": "This adress does not exist"
+      },
+      "langModal": {
+        "active": "Active language: english",
+        "header": "Please, select your language: "
+      },
+      "loading": {
+        "data": "Loading data...",
+        "mail": "Sending email...",
+        "wait": "Please wait"
+      }
+    },
+    "projects": {
+      "content": {
+        "project-0": {
+          "description": "An online business card and a small demonstration of my skills that I would like to showcase to visitors.",
+          "id": "project-0",
+          "title": "My Virtual Resume"
+        },
+        "project-1": {
+          "description": "A short description of the project, but longer than two words...",
+          "id": "project-1",
+          "title": "Calculator"
+        },
+        "project-2": {
+          "description": "A short description of the project, but longer than two words...",
+          "id": "project-2",
+          "title": "To Do List"
+        }
+      },
+      "links": {
+        "project-0": "https://github.com/",
+        "project-1": "https://github.com/",
+        "project-2": "https://github.com/"
+      },
+      "textGithub": "Check out my code on GitHub",
+      "title": "Projects"
+    },
+    "resume": {
+      "contactData": [
+        {
+          "content": "Oskar Tomasz Czerw",
+          "id": "resume-contact-item-1",
+          "title": "Names and Lastname"
+        },
+        {
+          "content": "6 September 1997",
+          "id": "resume-contact-item-2",
+          "title": "Date of Birth"
+        },
+        {
+          "content": "Budziechów 112, 68-300 Lubsko, Poland",
+          "id": "resume-contact-item-3",
+          "title": "Address for correspondence"
+        },
+        {
+          "content": "+48 669 315 303",
+          "id": "resume-contact-item-4",
+          "title": "Phone number"
+        },
+        {
+          "content": "oskarczerw97@gmail.com",
+          "id": "resume-contact-item-5",
+          "title": "Email"
+        }
+      ],
+      "courses": {
+        "buttonTxt": "Certificate",
+        "items": [
+          {
+            "id": "course-1",
+            "subtitle": "Samuraj Programowania",
+            "title": "Web Development Basics"
+          },
+          {
+            "id": "course-2",
+            "subtitle": "Samuraj Programowania",
+            "title": "Advanced Front-end"
+          },
+          {
+            "id": "course-3",
+            "subtitle": "Samuraj Programowania",
+            "title": "JavaScript Programming"
+          },
+          {
+            "id": "course-4",
+            "subtitle": "CODE:ME",
+            "title": "JavaScript + React basics"
+          },
+          {
+            "id": "course-5",
+            "subtitle": "Maximilian Schwarzmüller",
+            "title": "React - The Complete Guide",
+            "titleDesc": "+ React Router, Redux, Next.js"
+          },
+          {
+            "id": "course-6",
+            "subtitle": "Maximilian Schwarzmüller",
+            "title": "React Native - The Practical Guide (2022)"
+          }
+        ]
+      },
+      "education": {
+        "items": [
+          {
+            "description": "Secondary technical education in electronics and mechanical engineering.",
+            "id": "edu-1",
+            "subtitle": "CKZiU Elektronik Zielona Góra",
+            "time": "2013 - 2017",
+            "title": "Mechatronics Technician"
+          },
+          {
+            "description": "Acquire new skills in metalworking machine operation, machine programming, 3D model design and coordination of office tasks.",
+            "id": "edu-2",
+            "subtitle": "Apprenticeship",
+            "time": "2016",
+            "title": "CALEG Sp. z.o.o."
+          }
+        ]
+      },
+      "experience": {
+        "items": [
+          {
+            "description": "Preparation of industrial control systems for wind turbines and plasma generators. Subcontractor for industry leaders such as Enercon, Softal, Nordex.",
+            "id": "exp-item-1",
+            "location": "Germany",
+            "subtitle": "Franke+Pahl GMBH",
+            "time": "06/2021 - 05/2022",
+            "title": "Industrial electrical technician"
+          },
+          {
+            "description": "Making and testing control system connections for production machines. Preparation of electrical infrastructure in residential and office containers. Subcontractor for industry pioneers such as - Krones, Brückner, Recon.",
+            "id": "exp-item-2",
+            "location": "Germany",
+            "subtitle": "Own business (self-employment)",
+            "time": "10/2017 - 10/2020",
+            "title": "Industrial electrical technician"
+          }
+        ]
+      },
+      "paths": [
+        "contact-data",
+        "skills",
+        "courses",
+        "education",
+        "experience",
+        "questions-and-answers"
+      ],
+      "qa": {
+        "endtext": {
+          "content": [
+            "Thank you for taking a look at my online business card.",
+            "I hope it was an enjoyable time and all the information you need is easy to find.",
+            "Have a nice day!"
+          ],
+          "id": "qa-endtext"
+        },
+        "items": [
+          {
+            "description": [
+              "I am a young, energetic, enthusiastic person who put everything on one card - the card with the inscription \"Web Development\".",
+              "This is just the beginning of my journey, but I hope that when our paths meet, we will set out together to win awards for the best projects!"
+            ],
+            "id": "qa-item-1",
+            "title": "Why me?"
+          },
+          {
+            "description": [
+              "I am looking for my first job in this field and the lack of commercial experience is certainly noticeable. However, I can guarantee that what I lack in experience I make up for with commitment and motivation.",
+              "Disappointment is not an option! I will give one hundred percent of myself to prove that I am worth betting on."
+            ],
+            "id": "qa-item-2",
+            "title": "Lack of experience?"
+          },
+          {
+            "description": [
+              "Working in IT is my big dream. I try very hard to systematically improve my competences and make my projects better and better.",
+              "Of all the different types of career paths, I chose frontend because being able to see the visual results of my work gives me great pleasure and satisfaction."
+            ],
+            "id": "qa-item3",
+            "title": "Why IT?"
+          },
+          {
+            "description": [
+              "I have always been interested in logical challenges and modern technologies, so working as a programmer is a chance for me to realize my full potential.",
+              "I would like to never stop developing, taking part in creating projects using the latest technologies and at the same time meeting many interesting, passionate people."
+            ],
+            "id": "qa-item-4",
+            "title": "What I'm looking for?"
+          }
+        ]
+      },
+      "skills": {
+        "generalSkills": [
+          "Flexibility to adapt to the new environment",
+          "Independent work and cooperation in a group",
+          "Quickly absorb new information and draw conclusions on your own",
+          "Responsible approach to all tasks entrusted to me",
+          "Open-minded attitude and pleasure in meeting new people",
+          "Willingness to receive feedback and any advice on my work",
+          "Ability to plan the rhythm of the day and arrange the work schedule",
+          "Communication in foreign languages: English and German",
+          "Basic knowledge of Spanish"
+        ],
+        "headers": [
+          "Tech",
+          "General"
+        ],
+        "techSkills": [
+          "Writing semantic HTML and SCC code compliant with the BEM specification",
+          "Using CSS Flex and CSS Grid",
+          "Using preprocesors SCSS/SACC",
+          "Finding and manipulating of the DOM interface elements",
+          "Restructuring, organization and use of data fetched from the server",
+          "Creating reactive single page web applications with React",
+          "Using React libraries such as React Router or Redux.js",
+          "Creation of server-side rendered applications using the Next.js framework",
+          "Building mobile applications using React Native technology"
+        ]
+      },
+      "subtitles": [
+        "Personal data",
+        "Skills",
+        "Courses",
+        "Education",
+        "Experience",
+        "Q&A"
+      ],
+      "title": "Resume"
+    },
+    "welcome": {
+      "banners": [
+        {
+          "header": "My Virtual Portfolio",
+          "text": "I created this application so that you can easily get to know me and my skills. Have fun browsing!"
+        },
+        {
+          "header": "I would love to join you",
+          "text": "I would like to start my new adventure in IT and participate in the creation of unforgettable content."
+        },
+        {
+          "header": "Creating mobile Apps",
+          "text": "My dream and professional goal is to develop many great web and mobile applications."
+        }
+      ],
+      "footerText": {
+        "back": "Back",
+        "finish": "Let's go!",
+        "next": "Next"
+      },
+      "skipText": "Skip.."
+    }
+  },
+  "pl": {
+    "aboutme": {
+      "categories": [
+        {
+          "content": {
+            "headers": [
+              "Witaj!"
+            ],
+            "texts": [
+              "Jestem młodą, energiczną i ciekawą świata osobą. Chętnie podejmuję kolejne wyzwania, żeby stawać się lepszą wersją samego siebie i zaspokajać moją duszę odkrywcy. Uwielbiam poznawać nowych ludzi i ich historię, gdyż każda z nich jest niepowtarzalna i niesie za sobą wiele lekcji i wskazówek.",
+              "Jestem otwarty, chętnie pomagam innym ludziom i udzielam się w osiąganiu wspólnych celów. Nie boje się wyzwań i z pełną dozą ekscytacji podchodzę do nowych sytuacji w których się znajduję.",
+              "Zawsze cechował mnie techniczny umysł i zainteresowanie do znajdywania logicznych rozwiazań z każdej sytuacji. Popchnęło mnie to do spróbowania sił w programowaniu i chociaż jestem dopiero na począku mojej drogi to kierunek ten dostarcza mi wiele ciekawych doświadczeń już od samego początku."
+            ]
+          },
+          "id": "main",
+          "title": "Ogólne"
+        },
+        {
+          "content": {
+            "headers": [
+              "Podróże",
+              "Psychologia i samorozwój",
+              "Nowe technologie",
+              "Muzyka",
+              "Sport"
+            ],
+            "texts": [
+              "Poznawanie nowych miejsc, ludzi, kultur i spojrzenia na świat to coś co kocham i nie mogę wyobrazić sobie bez tego życia. Każdy kontakt z nową społecznością czy nawet chwila spędzona wśród niespotkanej wcześniej przyrody pozostawia ślad w pamięci, który pozwala nabrać sił i energii na dalszą drogę przez życie. ",
+              "Od dawna interesuję się  mentalnymi aspektami życia codziennego, pielęgnacją emocji i uczuć, a także sposobami na odkrycie drzemiącego w sobie potencjału. Mam lekką słabość do kupowania sobie książek poświęconej tego typu tematyce i z przyjemnością przyswajam kolejne ciekawe spostrzeżenia ich autorów.",
+              "Już w szkole podstawowej próbowałem wykorzystać niektóre aspekty języków HTML i CSS. Z biegiem czasu i rozwojem techniki poznawałem nowiki i ciekawostki o nowych wynalazkach. Ostatecznie zostałem elektrotechnikiem i w czasie pracy za naszą zachodnią granicą uczyłem się najnowszych technik tworzenia układów sterowniczych i programowania do maszyn produkcyjnych.",
+              "W przeszłości byłem gitarzystą prowadzącym w zespole grającym muzykę rap-core. Naszymi dwiema największymi inspiracjami były zespoły Linkin Park i Limp Bizkit. Cały czas muzyka jest obecna w moim życiu i w przyszłości na pewno chciałbym nauczyć się gry na perkusji.",
+              "Jestem wielkim fanem futbolu, zarówno na boisku jako zawodnik, jak i na stadionie lub przed ekranem jako kibic. Największą radość sprawia mi oglądanie ligi hiszpańskiej i oczywiście rozgrywki na najwyższym szczeblu - Champions League."
+            ]
+          },
+          "id": "hobbies",
+          "title": "Zaineresowania"
+        },
+        {
+          "content": {
+            "headers": [
+              "Zawodowe",
+              "Językowe",
+              "Podróżnicze"
+            ],
+            "texts": [
+              "Zostać Frontend Developerem i uzestniczyć w wielu ciekawych projektach tworząc profesjonalne aplikacje internetowe. Nigdy nie przestawać się rozwijać i nabywać nowych umiejętności.",
+              "Nauczyć się rozmawiać płynnie w języku hiszpańskim, a także podszlifować angielski i niemiecki.",
+              "Zwiedzić wszystkie kraje świata, poznać każdą kulturę i mieć znajomych na każdym kontynencie. Zobaczyć na żywo zorzę polarną i finał mistrzostw świata w piłce nożnej."
+            ]
+          },
+          "id": "dreams",
+          "title": "Marzenia"
+        }
+      ],
+      "description": "Witaj w moim małym świecie!",
+      "paths": [
+        "main",
+        "hobbies",
+        "dreams"
+      ],
+      "title": "O mnie"
+    },
+    "contact": {
+      "formData": {
+        "button": "Wyślij",
+        "invalid": {
+          "from": "Adres email jest niepoprawny",
+          "subject": "Podany tytuł jest za krótki",
+          "text": "Zbyt mało treści"
+        },
+        "labels": {
+          "from": "Nadawca",
+          "subject": "Tytuł",
+          "text": "Wiadomość"
+        },
+        "placeholders": {
+          "from": "Twój adres email",
+          "subject": "Temat wiadomości",
+          "text": "Witaj, jak mogę Ci pomóc?"
+        }
+      },
+      "title": "Kontakt"
+    },
+    "home": {
+      "bannerTexts": [
+        "Bardzo się cieszę, że mogę Cię gościć na mojej stronie-wizytówce.",
+        "Jeśli jesteś zainteresowany współpracą lub szukasz więcej informacji, chętnie odpowiem na wszystkie wiadomości."
+      ],
+      "details": [
+        {
+          "id": "home-details-1",
+          "text": "CV PDF"
+        },
+        {
+          "id": "home-details-2",
+          "text": "Zmień język strony"
+        },
+        {
+          "id": "home-details-3",
+          "text": "Powrót do intro"
+        }
+      ],
+      "headers": [
+        "Poznajmy się trochę lepiej",
+        "Więcej opcji"
+      ],
+      "id": "home-content",
+      "socials": {
+        "whatsapp": {
+          "info": "Zeskanuj kod QR i dodaj mnie do kontaktów!"
+        },
+        "zoom": {
+          "buttons": {
+            "call": "Połącz",
+            "cancel": "Anuluj"
+          },
+          "info": "Połączenie się z użytkownikiem: Oskar Czerw"
+        }
+      },
+      "topbarData": {
+        "header": "Witaj!",
+        "navItems": [
+          "CV",
+          "O mnie",
+          "Projekty",
+          "Kontakt"
+        ],
+        "paths": [
+          "/resume",
+          "/aboutme",
+          "projects",
+          "/contact"
+        ]
+      }
+    },
+    "id": "pl",
+    "interface": {
+      "error": {
+        "data": {
+          "desc": "Lokalne dane mogą być nieaktualne",
+          "lastUpdate": "Ostatnia aktualizacja",
+          "localBtn": "Wyświetl dane lokalne",
+          "reloadBtn": "Spróbuj ponownie",
+          "title": "Błąd pobierania danych z serwera"
+        },
+        "mail": "Błąd wysyłania wiadomości",
+        "nopage": "Podany adres nie istnieje"
+      },
+      "langModal": {
+        "active": "Aktywny język: polski",
+        "header": "Proszę, wybierz język: "
+      },
+      "loading": {
+        "data": "Ładowanie danych...",
+        "mail": "Wysyłanie wiadomości...",
+        "wait": "Proszę czekać"
+      }
+    },
+    "projects": {
+      "content": {
+        "project-0": {
+          "description": "Internetowa wizytówka i mały pokaz moich umiejętności, które chciałbym zaprezentować odwiedzającym.",
+          "id": "project-0",
+          "title": "Moje wirtualne CV"
+        },
+        "project-1": {
+          "description": "Opis projektu trochę dłuższy niż dwa słowa.",
+          "id": "project-1",
+          "title": "Kalkulator"
+        },
+        "project-2": {
+          "description": "Opis projektu trochę dłuższy niż dwa słowa.",
+          "id": "project-2",
+          "title": "Lista Zadań"
+        }
+      },
+      "links": {
+        "project-0": "https://github.com/",
+        "project-1": "https://github.com/",
+        "project-2": "https://github.com/"
+      },
+      "textGithub": "Zobacz mój kod na GitHub",
+      "title": "Projekty"
+    },
+    "resume": {
+      "contactData": [
+        {
+          "content": "Oskar Czerw",
+          "id": "resume-contact-item-1",
+          "title": "Imię i nazwisko"
+        },
+        {
+          "content": "6 września 1997",
+          "id": "resume-contact-item-2",
+          "title": "Data urodzenia"
+        },
+        {
+          "content": "Budziechów 112, 68-300 Lubsko, Polska",
+          "id": "resume-contact-item-3",
+          "title": "Adres korespondencyjny"
+        },
+        {
+          "content": "+48 669 315 303",
+          "id": "resume-contact-item-4",
+          "title": "Telefon kontaktowy"
+        },
+        {
+          "content": "oskarczerw97@gmail.com",
+          "id": "resume-contact-item-5",
+          "title": "Email"
+        }
+      ],
+      "courses": {
+        "buttonTxt": "Certyfikat",
+        "items": [
+          {
+            "id": "course-1",
+            "subtitle": "Samuraj Programowania",
+            "title": "Web developer od podstaw"
+          },
+          {
+            "id": "course-2",
+            "subtitle": "Samuraj Programowania",
+            "title": "Front-end zaawansowany"
+          },
+          {
+            "id": "course-3",
+            "subtitle": "Samuraj Programowania",
+            "title": "Programowanie w JavaScript"
+          },
+          {
+            "id": "course-4",
+            "subtitle": "CODE:ME",
+            "title": "Kurs JavaScript + React od podstaw"
+          },
+          {
+            "id": "course-5",
+            "subtitle": "Maximilian Schwarzmüller",
+            "title": "React - The Complete Guide",
+            "titleDesc": "+ React Router, Redux, Next.js"
+          },
+          {
+            "id": "course-6",
+            "subtitle": "Maximilian Schwarzmüller",
+            "title": "React Native - The Practical Guide (2022)"
+          }
+        ]
+      },
+      "education": {
+        "items": [
+          {
+            "description": "Wykształcenie średnie techniczne na kierunku elektroniczno-mechanicznym.",
+            "id": "edu-1",
+            "subtitle": "CKZiU Elektronik Zielona Góra",
+            "time": "2013 - 2017",
+            "title": "Technik Mechatronik"
+          },
+          {
+            "description": "Zdobywanie nowych umiejętności z zakresu obsługi maszyn do obróbki metali, programowania maszynowego, projektowania modelowego 3D i koordynacji zadań biurowych.",
+            "id": "edu-2",
+            "subtitle": "CALEG Sp. z.o.o.",
+            "time": "2016",
+            "title": "Praktyka zawodowa"
+          }
+        ]
+      },
+      "experience": {
+        "items": [
+          {
+            "description": "Przygotowanie industrialnych układów sterowania dla turbin wiatrowych i generatorów plazmy. Podwykonawca liderów branży takich jak - Enercon, Softal, Nordex.",
+            "id": "exp-item-1",
+            "location": "Niemcy",
+            "subtitle": "Franke+Pahl GMBH",
+            "time": "06/2021 - 05/2022",
+            "title": "Elektrotechnik przemysłowy"
+          },
+          {
+            "description": "Wykonywanie i testowanie połączeń układów sterowniczych dla maszyn produkcyjnych. Przygotowanie infrastruktury elektrycznej w kontenerach mieszkalnych i biurowych. Podwykonawca pionierów branży takich jak - Krones, Brückner, Recon.",
+            "id": "exp-item-2",
+            "location": "Niemcy",
+            "subtitle": "Własna działalność gospodarcza",
+            "time": "10/2017 - 10/2020",
+            "title": "Elektrotechnik przemysłowy"
+          }
+        ]
+      },
+      "paths": [
+        "contact-data",
+        "skills",
+        "courses",
+        "education",
+        "experience",
+        "questions-and-answers"
+      ],
+      "qa": {
+        "endtext": {
+          "content": [
+            "Dziękuję za zapoznanie się z moją internetową wizytówką.",
+            "Mam nadzieję, że był to przyjemnie spędzony czas i wszystkie potrzebne informacje są łatwe do znalezienia.",
+            "Miłego dnia!"
+          ],
+          "id": "qa-endtext"
+        },
+        "items": [
+          {
+            "description": [
+              "Jestem młodą, energiczną, pełną zapału osobą, która postawiła wszystko na jedną kartę - kartę z napisem \"Web Development\".",
+              "To dopiero początek mojej drogi, ale mam nadzieję, że kiedy nasze ścieżki się spotkają, wyruszymy wspólnie w drogę po nagrody za najlepsze projekty!"
+            ],
+            "id": "qa-item-1",
+            "title": "Dlaczego ja?"
+          },
+          {
+            "description": [
+              "Szukam mojej pierwszej pracy w tej dziedzinie i brak komercyjnego doświadczenia na pewno rzuca się w oczy. Mogę jednak zagwarantować, że braki te nadrabiam zaangażowaniem i motywacją do działania.",
+              "Rozczarowanie nie wchodzi w grę! Dam z siebie sto procent, żeby udowodnić, że warto na mnie postawić."
+            ],
+            "id": "qa-item-2",
+            "title": "Brak doświadczenia?"
+          },
+          {
+            "description": [
+              "Praca w IT jest moim wielkim marzeniem. Bardzo staram się systematycznie podnosić moje kompetencje i sprawiać, żeby tworzone przeze mnie projekty były coraz lepiej wykonane.",
+              "Spośród różnego typu ścieżek kariery zdecydowałem się na frontend, ponieważ możliwość obserwacji wizualnych efektów mojej pracy wprawia mi ogromną przyjemność i satysfakcję."
+            ],
+            "id": "qa-item3",
+            "title": "Dlaczego IT?"
+          },
+          {
+            "description": [
+              "Od zawsze interesowałem się logicznymi wyzwaniami i nowoczesnymi technologiami, więc praca programisty to dla mnie szansa na wykorzystanie w pełni mojego potencjału.",
+              "Chciałbym nigdy nie przestawać się rozwijać, brać udział w tworzeniu projektów z wykorzystaniem najnowszych technologii, poznając przy okazji wielu ciekawych, pełnych pasji ludzi."
+            ],
+            "id": "qa-item-4",
+            "title": "Czego szukam?"
+          }
+        ]
+      },
+      "skills": {
+        "generalSkills": [
+          "Płynne odnajdywanie się w nowym środowisku pracy",
+          "Praca samodzielna i współpraca w grupie",
+          "Szybkie przyswajanie nowych informacji i samodzielne wyciąganie wniosków",
+          "Odpowiedzialne podejście do wszystkich powierzonych mi zadań",
+          "Otwarta postawa i przyjemność z poznawania nowych ludzi",
+          "Chęć uzyskania wskazówek i ewentualnych uwag odnośnie mojej pracy",
+          "Umiejętność planowania rytmu dnia i układania grafiku pracy",
+          "Komunikacja w językach obcych - angielski i niemiecki",
+          "Podstawowa znajomość języka hiszpańskiego"
+        ],
+        "headers": [
+          "Techniczne",
+          "Ogólne"
+        ],
+        "techSkills": [
+          "Pisanie semantycznego kodu HTML i SCC zgodnego ze specyfikacją BEM",
+          "Wykorzystywanie zalet CSS Flex i CSS Grid",
+          "Używanie preprocesorów SCSS/SACC",
+          "Wyszukiwanie i manipulowanie wyglądem i działeniem elemenów interfejsu DOM",
+          "Restrukturyzacja, organizacja i wykorzystanie pobranych z serwera dancyh",
+          "Tworzenie reaktywnych aplikacji webowych typu Single Page z użyciem biblioteki React",
+          "Zarządzanie danymi w przestrzeni globalnej za pomocą biblioteki Redux",
+          "Tworzenie aplikacji renderowanych po stronie serwera z wykorzystaniem frameworka Next.js",
+          "Budowanie aplikacji mobilnych przy w technologii React Native"
+        ]
+      },
+      "subtitles": [
+        "Dane Osobowe",
+        "Umiejętności",
+        "Kursy",
+        "Wykształcenie",
+        "Doświadczenie",
+        "Q&A"
+      ],
+      "title": "CV"
+    },
+    "welcome": {
+      "banners": [
+        {
+          "header": "Moje wirtualne portfolio",
+          "text": "Stowrzyłem tę aplikację, żeby mogli Państwo łatwo poznać mnie i moje umiejętności."
+        },
+        {
+          "header": "Chętnie do Was dołączę",
+          "text": "Chciałbym zacząć swoją przygodę z IT i wziąć udział w tworzeniu niezapomnianego contentu."
+        },
+        {
+          "header": "Tworzenie mobile Apps",
+          "text": "Moje marzenie i zawodowy cel to stworzenie wielu wspaniach aplikacji webowych i mobilnych."
+        }
+      ],
+      "footerText": {
+        "back": "Cofnij",
+        "finish": "Start!",
+        "next": "Dalej"
+      },
+      "skipText": "Pomiń.."
+    }
+  }
+}

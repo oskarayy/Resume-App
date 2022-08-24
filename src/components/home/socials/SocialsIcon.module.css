@@ -1,0 +1,71 @@
+.icon {
+  text-align: center;
+  animation: lightUp 5s linear forwards infinite;
+  cursor: pointer;
+}
+
+.icon a {
+  height: 100%;
+}
+
+.icon img {
+  max-width: 65%;
+  transform: scale(1);
+  filter: brightness(100%);
+  transition: 0.2s linear;
+}
+
+.icon:nth-of-type(2) {
+  animation-delay: 0.25s;
+}
+.icon:nth-of-type(3) {
+  animation-delay: 0.5s;
+}
+.icon:nth-of-type(4) {
+  animation-delay: 0.75s;
+}
+.icon:nth-of-type(5) {
+  animation-delay: 1s;
+}
+
+.icon:hover img {
+  transform: scale(1.3);
+  filter: brightness(150%);
+}
+
+@media (min-width: 768px) {
+  .icon img {
+    padding: 2.5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .icon img {
+    padding: 2.5%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .icon img {
+    padding: 0;
+  }
+}
+
+@keyframes lightUp {
+  0% {
+    transform: scale(1);
+    filter: brightness(110%);
+  }
+  5% {
+    transform: scale(1.15);
+    filter: brightness(140%);
+  }
+  10% {
+    transform: scale(1);
+    filter: brightness(110%);
+  }
+  100% {
+    transform: scale(1);
+    filter: brightness(110%);
+  }
+}

@@ -1,0 +1,119 @@
+section.details {
+  height: 75%;
+}
+
+.details .image {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.details .image img {
+  max-width: 92.5%;
+  border-radius: 10px;
+  box-shadow: 0 0px 15px -5px rgb(255, 255, 255, 0.7);
+}
+
+.details p {
+  margin: 5% 0;
+  line-height: 160%;
+  text-align: center;
+}
+
+.details p.tech {
+  margin-top: 20px;
+  font-family: Bold;
+  letter-spacing: 0.25px;
+}
+
+.github {
+  margin-bottom: 15px;
+  text-align: center;
+  animation: lightUp 3s ease-in forwards infinite;
+}
+
+.github .link {
+  display: inline-block;
+}
+
+.github .link img {
+  max-width: 17.5%;
+  margin-bottom: 2.5px;
+}
+
+.github .link p {
+  font-size: 14px;
+  color: #e3e3e3;
+}
+
+@media (min-width: 768px) {
+  .details .image img {
+    border-radius: 15px;
+  }
+  .details p {
+    font-size: 20px;
+  }
+  .github .link p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  section.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65%;
+  }
+  section.details > * {
+    flex-basis: 50%;
+  }
+  .details .image {
+    margin: 0 0 10px;
+  }
+  .details .image img {
+    max-width: 90%;
+    border-radius: 20px;
+  }
+  .details p {
+    padding: 2.5%;
+    font-size: 18px;
+    text-align: left;
+  }
+  .github {
+    margin: 20px auto 0;
+  }
+  .github .link p {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1440px) {
+  section.details {
+    height: 60%;
+  }
+  .details p {
+    padding: 5%;
+    font-size: 20px;
+  }
+  .github .link p {
+    font-size: 18px;
+  }
+}
+
+@keyframes lightUp {
+  0% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+  20% {
+    transform: scale(1.07);
+    filter: brightness(140%);
+  }
+  40% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+  100% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+}

@@ -1,0 +1,59 @@
+.backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+
+  cursor: pointer;
+  z-index: 4;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 30%;
+  padding: 10% 0;
+  z-index: 5;
+
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+
+  transform: translateX(-105%);
+  animation: slide 0.2s ease-out forwards;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: Prompt-SemiBold;
+}
+
+@media (orientation: landscape) {
+  .sidebar {
+    right: 60%;
+    padding: 5% 0;
+  }
+  .sidebar h2 {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .sidebar {
+    right: 70%;
+    padding: 4% 0;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-105%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

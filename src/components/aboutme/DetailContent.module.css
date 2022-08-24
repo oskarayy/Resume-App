@@ -1,0 +1,98 @@
+.content {
+  flex-basis: 85%;
+  overflow-y: scroll;
+}
+
+.content > div {
+  min-height: 95%;
+  margin: 0;
+}
+
+.item {
+  margin-bottom: 50px;
+}
+
+.item h3 {
+  width: 100%;
+  margin: 0 0 15px;
+  font-family: 'Bold';
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.item p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .item {
+    margin-bottom: 60px;
+  }
+  .item h3 {
+    font-size: 22px;
+    margin: 15px 0;
+  }
+
+  .item p {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1024px) {
+  section.content:nth-child(2) {
+    flex-basis: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  section.content > div {
+    padding: 5% 7.5% 0.5%;
+  }
+
+  section.content .item {
+    margin-bottom: 60px;
+  }
+  section.content .item h3 {
+    width: 100%;
+    margin: 0 0 10px;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  section.content .item p {
+    width: 90%;
+    font-size: 18px;
+    min-height: 0;
+    margin: 0 auto 25px;
+    line-height: 180%;
+  }
+}
+@media (min-width: 1440px) {
+  section.content > div {
+    width: 90%;
+    padding: 5% 10% 0.5%;
+    margin: auto;
+  }
+  section.content .item h3 {
+    margin: 0 0 20px;
+    font-size: 30px;
+  }
+
+  section.content .item p {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 175%;
+  }
+}
+
+@media (min-width: 1600px) {
+  section.content > div {
+    width: 85%;
+  }
+}

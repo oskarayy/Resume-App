@@ -1,0 +1,25 @@
+.layout {
+  height: 100%;
+  width: 100%;
+  background: #373b44;
+  background: -webkit-linear-gradient(to bottom, #4286f4, #373b44);
+  background: linear-gradient(to bottom, #4286f4, #373b44);
+  overflow: hidden;
+}
+
+@media (orientation: landscape) {
+  .layout {
+    overflow: scroll;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 560px) {
+  .layout {
+    height: 200vh;
+  }
+}
+@media (orientation: landscape) and (max-height: 460px) {
+  .layout {
+    height: 250vh;
+  }
+}

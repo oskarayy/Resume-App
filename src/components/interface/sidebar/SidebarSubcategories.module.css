@@ -1,0 +1,120 @@
+nav {
+  display: block;
+  background-color: rgba(146, 146, 146, 0.2);
+  font-family: Prompt-SemiBold;
+  letter-spacing: 0.5px;
+}
+
+nav a {
+  display: block;
+  color: #fefefe;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+nav ul span {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 0 25px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  line-height: 50px;
+  text-align: left;
+}
+
+nav ul span::after {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%) rotate(0);
+  display: block;
+  content: '';
+  height: 12px;
+  width: 12px;
+  background-image: url('../../../images/icons/down-arrow.png');
+  background-size: contain;
+  transition: 0.2s ease-out;
+}
+
+nav .category--active span::after {
+  transform: translateY(-50%) rotate(-180deg);
+}
+
+nav ul li:last-child span {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+nav ul li:last-child span::after {
+  display: none;
+}
+
+.category ul {
+  height: 0;
+  opacity: 0;
+  transform: translateX(-100vw);
+  transition: opacity 0.3s linear;
+}
+
+.category--active ul {
+  height: auto;
+  opacity: 1;
+  transform: translateX(0px);
+  transition: opacity 0.3s linear;
+}
+
+.category a,
+.category--active a {
+  padding: 15px 30px;
+  font-size: 14px;
+  background-color: rgba(146, 146, 146, 0.2);
+}
+
+.category--active a.active {
+  background-color: rgba(41, 27, 121, 0.31);
+  color: rgb(152, 142, 240);
+}
+.category--active a:hover {
+  background-color: rgb(178, 170, 227);
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  nav ul span {
+    padding: 10px 25px;
+    font-size: 20px;
+  }
+  .category a,
+  .category--active a {
+    padding: 20px 40px;
+    font-size: 16px;
+  }
+}
+
+@media (orientation: landscape) {
+  nav ul span {
+    padding: 5px 30px;
+    font-size: 20px;
+  }
+  .category a,
+  .category--active a {
+    padding: 20px 50px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1440px) {
+  nav ul span {
+    padding: 7.5px 35px;
+  }
+  .category a,
+  .category--active a {
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+}

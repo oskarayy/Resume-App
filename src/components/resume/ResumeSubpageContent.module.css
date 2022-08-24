@@ -1,0 +1,56 @@
+section {
+  width: 100%;
+}
+
+p.location,
+p.time {
+  text-align: right;
+  min-height: auto;
+}
+
+p.location {
+  margin: 25px 0 0;
+}
+
+/* qa */
+
+section p.qatext:nth-of-type(n) {
+  min-height: auto;
+  margin-bottom: 20px;
+}
+
+.endtext {
+  width: 80%;
+  margin: 70px auto 50px;
+}
+
+.endtext p {
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: center;
+  line-height: 150%;
+}
+
+@media (min-width: 768px) {
+  .endtext p {
+    margin: 25px 0;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  section:nth-child(2) {
+    display: grid;
+    padding: 15px 2.5%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+  }
+  section p.qatext:nth-of-type(n) {
+    min-height: auto;
+    margin: 20px 0;
+  }
+  .endtext {
+    display: none;
+  }
+}

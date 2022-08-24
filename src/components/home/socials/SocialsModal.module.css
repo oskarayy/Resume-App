@@ -1,0 +1,135 @@
+.backdrop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 7.5%;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(16px);
+  opacity: 0;
+  animation: showUp 0.2s ease-out forwards;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 7.5% 5%;
+  background-color: #222;
+  border: 2px solid #444;
+  box-shadow: 0 0 10px #444;
+  border-radius: 20px 3px;
+  text-align: center;
+}
+
+.modal img {
+  width: 70%;
+  margin: 15px 0;
+}
+
+.modal .number {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.modal h2 {
+  margin-bottom: 10px;
+}
+
+.modal p {
+  width: 80%;
+  line-height: 140%;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.controls > button {
+  flex-basis: 40%;
+  padding: 10px 0;
+  text-align: center;
+  color: rgb(225, 131, 131);
+  cursor: pointer;
+}
+
+.controls button:last-child,
+.controls button:last-child > a {
+  color: rgb(157, 205, 153);
+}
+
+@media (min-width: 768px) {
+  .backdrop {
+    padding: 0 15%;
+  }
+  .modal {
+    padding: 7.5% 10%;
+  }
+  .modal h2 {
+    font-size: 28px;
+  }
+  .modal p {
+    font-size: 17px;
+  }
+  .modal img {
+    width: 60%;
+    margin: 25px 0;
+  }
+  .controls {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .backdrop {
+    padding: 0 25%;
+  }
+  .modal h2 {
+    font-size: 32px;
+  }
+  .modal img {
+    width: 50%;
+  }
+  .controls {
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .backdrop {
+    padding: 0 30%;
+  }
+  .modal h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  .modal p {
+    font-size: 18px;
+  }
+  .modal img {
+    width: 40%;
+    margin: 30px 0;
+  }
+  .controls {
+    margin-top: 25px;
+  }
+}
+
+@keyframes showUp {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
