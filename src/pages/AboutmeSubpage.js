@@ -6,7 +6,7 @@ import SubpageTopbar from '../components/interface/SubpageTopbar';
 import DetailContent from '../components/aboutme/DetailContent';
 import SubpageNavigation from '../components/interface/SubpageNavigation';
 import AnimatedDiv from '../components/animations/AnimatedDiv';
-import Error from '../components/interface/UI/Error';
+import NoPage from './NoPage';
 
 const AboutmeSubpage = () => {
   const ctx = useContext(LangContext);
@@ -14,13 +14,7 @@ const AboutmeSubpage = () => {
   const { catId } = useParams();
 
   const pageFound = ['', ...paths].includes(catId);
-  if (!pageFound)
-    return (
-      <AnimatedDiv>
-        <SubpageTopbar title='Error' to='/aboutme' />
-        <Error nopage error='Wrong adress' />
-      </AnimatedDiv>
-    );
+  if (!pageFound) return <NoPage />;
 
   const activeCategory = categories.find((item) => item.id === catId);
 

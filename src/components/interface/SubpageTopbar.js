@@ -4,16 +4,11 @@ import classes from './SubpageTopbar.module.css';
 import arrowImg from '../../images/icons/left-arrow.png';
 import HamburgerBox from './sidebar/hamburger/HamburgerBox';
 
-const SubpageTopbar = ({ title }) => {
+const SubpageTopbar = ({ title, error }) => {
   const { pathname } = useLocation();
   const pathArr = pathname.split('/');
   pathArr.pop();
-  const backBtnPath = pathArr.length > 1 ? pathArr.join('/') : '/';
-
-  // const navigate = useNavigate();
-  // const previousPageHandler = () => {
-  //   navigate(-1);
-  // };
+  const backBtnPath = pathArr.length > 1 && !error ? pathArr.join('/') : '/';
 
   return (
     <header className={classes.subpage}>

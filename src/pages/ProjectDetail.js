@@ -6,7 +6,7 @@ import SubpageTopbar from '../components/interface/SubpageTopbar';
 import SubpageNavigation from '../components/interface/SubpageNavigation';
 import AnimatedDiv from '../components/animations/AnimatedDiv';
 import ProjectContent from '../components/projects/ProjectContent';
-import Error from '../components/interface/UI/Error';
+import NoPage from './NoPage';
 
 import { replaceProjectsImages } from '../utils/replaceProjectsImages';
 
@@ -30,14 +30,7 @@ const ProjectDetail = () => {
 
   replaceProjectsImages(projects);
 
-  if (!pageFound) {
-    return (
-      <AnimatedDiv>
-        <SubpageTopbar title='Error' to='/projects' />
-        <Error nopage error='Wrong adress' />
-      </AnimatedDiv>
-    );
-  }
+  if (!pageFound) return <NoPage />;
 
   return (
     <AnimatedDiv>

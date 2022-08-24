@@ -10,7 +10,7 @@ import Certificate from '../components/resume/Certificate';
 import Projects from '../pages/Projects';
 import ProjectDetail from '../pages/ProjectDetail';
 import Contact from '../pages/Contact';
-import Error from '../components/interface/UI/Error';
+import NoPage from '../pages/NoPage';
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -30,10 +30,7 @@ const AnimatedRoutes = () => {
         <Route path='/projects' element={<Projects />} />
         <Route path='/projects/:projectId' element={<ProjectDetail />} />
         <Route path='/contact' element={<Contact />} />
-        <Route
-          path='*'
-          element={<Error title='Page not found' error='Wrong page adress' />}
-        />
+        <Route path='*' element={<NoPage />} />
       </Routes>
     </AnimatePresence>
   );

@@ -5,11 +5,11 @@ import LangContext from '../store/langContext';
 import ContactData from '../components/resume/ContactData';
 import Skills from '../components/resume/Skills';
 import ResumeSubpageContent from '../components/resume/ResumeSubpageContent';
-import Error from '../components/interface/UI/Error';
 
 import AnimatedDiv from '../components/animations/AnimatedDiv';
 import SubpageTopbar from '../components/interface/SubpageTopbar';
 import SubpageNavigation from '../components/interface/SubpageNavigation';
+import NoPage from './NoPage';
 
 const ResumeSubpage = () => {
   const ctx = useContext(LangContext);
@@ -29,13 +29,7 @@ const ResumeSubpage = () => {
   const activePageData = {};
 
   const pageFound = ['', ...paths].includes(params);
-  if (!pageFound)
-    return (
-      <AnimatedDiv>
-        <SubpageTopbar title='Error' to='/resume' />
-        <Error nopage error='Wrong adress' />
-      </AnimatedDiv>
-    );
+  if (!pageFound) return <NoPage />;
 
   for (let path of paths) {
     if (path === params) {
