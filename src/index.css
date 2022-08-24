@@ -11,18 +11,16 @@ body {
   color: #fcfcfc;
 }
 
-html *::-webkit-scrollbar {
-  display: none;
-  width: 0;
-  height: 0;
-  appearance: none;
-}
-
 body * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  scrollbar-width: none;
+}
+
+body *::-webkit-scrollbar {
+  display: none;
 }
 
 body > #root {
