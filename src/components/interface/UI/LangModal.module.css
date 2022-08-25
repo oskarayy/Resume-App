@@ -35,6 +35,9 @@
   width: 50%;
   margin: 0 auto;
   cursor: pointer;
+  transform: scale(1);
+  filter: brightness(100%);
+  transition: 0.2s;
 }
 
 .flag:nth-of-type(2) {
@@ -44,6 +47,13 @@
 .flag img {
   max-width: 100%;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.33);
+}
+
+@media (hover: hover) {
+  .flag:hover {
+    transform: scale(1.1);
+    filter: brightness(120%);
+  }
 }
 
 @media (min-width: 768px) {

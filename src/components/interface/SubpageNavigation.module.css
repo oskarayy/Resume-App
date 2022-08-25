@@ -22,11 +22,16 @@
   font-family: 'Regular';
   font-size: 16px;
   color: #f3f3f3;
+  transform: scale(1);
+  filter: brightness(100%);
+  transition: 0.2s;
 }
 
 .icon-left,
 .icon-right {
   font-size: 0.8em;
+  transform: translateX(0);
+  transition: 0.2s;
 }
 
 .icon-left {
@@ -35,6 +40,20 @@
 
 .icon-right {
   margin-left: 5px;
+}
+
+@media (hover: hover) {
+  .skip:hover {
+    transform: scale(1.1);
+    filter: brightness(120%);
+  }
+  .skip:hover .icon-left {
+    transform: translateX(-2.5px);
+  }
+
+  .skip:hover .icon-right {
+    transform: translateX(2.5px);
+  }
 }
 
 @media (min-width: 400px) {

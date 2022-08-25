@@ -28,6 +28,10 @@
   color: #f3f3f3;
   text-align: right;
   cursor: pointer;
+  transform: scale(1);
+  filter: brightness(100%);
+  transition: 0.2s;
+  transform-origin: center;
 }
 .skip:nth-of-type(2) {
   width: 100px;
@@ -36,14 +40,31 @@
 .icon-left,
 .icon-right {
   font-size: 0.8em;
+  transition: 0.2s;
 }
 
 .icon-left {
   margin-right: 5px;
+  transform: translateX(0);
 }
 
 .icon-right {
   margin-left: 5px;
+  transform: translateX(0);
+}
+
+@media (hover: hover) {
+  .skip:hover {
+    transform: scale(1.1);
+    filter: brightness(120%);
+  }
+  .skip:hover .icon-left {
+    transform: translateX(-2.5px);
+  }
+
+  .skip:hover .icon-right {
+    transform: translateX(2.5px);
+  }
 }
 
 @media (min-width: 400px) {

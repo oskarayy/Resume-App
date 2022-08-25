@@ -55,6 +55,16 @@
   font-size: 12px;
   cursor: pointer;
   color: black;
+  transform: scale(1);
+  filter: brightness(100%);
+  transition: 0.2s;
+}
+
+@media (hover: hover) {
+  .card button:hover {
+    transform: scale(1.1);
+    filter: brightness(120%);
+  }
 }
 
 @media (min-width: 390px) {

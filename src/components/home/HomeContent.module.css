@@ -62,6 +62,7 @@ div.second-bar__card {
   padding: 2% 5%;
   border-radius: 15px 3px;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 div.second-bar__card h3 {
@@ -69,8 +70,13 @@ div.second-bar__card h3 {
   margin: 4px auto;
   text-align: center;
 }
-div.second-bar__card img {
-  width: 20%;
+
+@media (hover: hover) {
+  div.second-bar__card:hover {
+    transform: translateY(-5px);
+    filter: brightness(120%);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
 }
 
 @media (min-width: 390px) {

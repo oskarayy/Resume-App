@@ -8,12 +8,22 @@
   font-size: 14px;
   color: #fff;
   letter-spacing: 1px;
+  transform: scale(1);
+  filter: brightness(100%);
+  transition: 0.2s;
   cursor: pointer;
 }
 
 .icon {
   margin-right: 7px;
   font-size: 0.9em;
+}
+
+@media (hover: hover) {
+  .btn:hover {
+    transform: scale(1.05);
+    filter: brightness(120%);
+  }
 }
 
 @media (orientation: portrait) and (min-height: 800px) {

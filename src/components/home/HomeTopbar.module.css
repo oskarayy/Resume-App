@@ -31,6 +31,10 @@
   margin-top: 15px;
 }
 
+.navi * {
+  transition: 0.2s;
+}
+
 .navi__item {
   flex-basis: 20.5%;
   filter: grayscale(30%);
@@ -62,6 +66,20 @@
   text-align: center;
   font-size: 12px;
   color: #f3f3f3;
+}
+
+@media (hover: hover) {
+  .navi__item:hover {
+    filter: grayscale(0) brightness(110%);
+    transform: scale(1.1);
+  }
+  .navi__item:hover span {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+  .navi__item:hover img {
+    transform: scale(1.2);
+  }
 }
 
 @media (min-width: 390px) {

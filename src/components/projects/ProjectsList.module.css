@@ -8,6 +8,10 @@ section.container {
   padding: 0;
   margin: 30px 10px;
   overflow: hidden;
+  transform: scale(1);
+  filter: brightness(100%);
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
 }
 
 .project .image {
@@ -29,6 +33,14 @@ section.container {
   padding: 10px 0 15px;
   margin: 0;
   font-size: 20px;
+}
+
+@media (hover: hover) {
+  .project:hover {
+    transform: scale(1.05);
+    filter: brightness(110%);
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }
 
 @media (min-width: 768px) {

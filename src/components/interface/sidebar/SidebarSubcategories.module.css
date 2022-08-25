@@ -33,7 +33,8 @@ nav ul span::after {
   position: absolute;
   right: 10%;
   top: 50%;
-  transform: translateY(-50%) rotate(0);
+  transform: translateY(-50%) rotate(0) scale(1);
+  filter: brightness(100%);
   display: block;
   content: '';
   height: 12px;
@@ -79,9 +80,22 @@ nav ul li:last-child span::after {
   background-color: rgba(41, 27, 121, 0.31);
   color: rgb(152, 142, 240);
 }
-.category--active a:hover {
-  background-color: rgb(178, 170, 227);
-  color: #fff;
+
+@media (hover: hover) {
+  nav .category:hover {
+    filter: brightness(120%);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  nav .category:hover span::after {
+    transform: translateY(-50%) rotate(0) scale(1.6);
+  }
+  nav .category--active:hover span::after {
+    transform: translateY(-50%) rotate(-180deg) scale(1.6);
+  }
+  .category--active a:hover {
+    background-color: rgb(178, 170, 227);
+    color: #fff;
+  }
 }
 
 @media (min-width: 768px) {

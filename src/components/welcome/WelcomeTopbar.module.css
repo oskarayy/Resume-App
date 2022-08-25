@@ -12,10 +12,38 @@
 }
 
 .topbar span {
+  position: relative;
+  padding: 2.5px 10px;
   font-family: 'Regular';
   font-size: 14px;
   color: #cfcfcf;
   cursor: pointer;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+@media (hover: hover) {
+  .topbar span::after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1.5px solid #cfcfcf;
+    border-radius: 0.75px;
+    transform: scaleX(0);
+    opacity: 0;
+    transition: 0.2s;
+  }
+  .topbar span:hover {
+    filter: brightness(120%);
+  }
+
+  .topbar span:hover::after {
+    transform: scaleX(1);
+    opacity: 1;
+  }
 }
 
 @media (min-width: 400px) {
