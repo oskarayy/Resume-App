@@ -35,7 +35,7 @@ const Error = ({ error, email, nopage }) => {
         <Button data onClick={onLocalData}>
           {content.data.localBtn}
         </Button>
-        <p>{content.data.lastUpdate}: 23/08/2022 14:11 UTC</p>
+        <p>{content.data.lastUpdate}: 25/08/2022 18:56 UTC</p>
       </div>
     </div>
   );
