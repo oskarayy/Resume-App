@@ -1,7 +1,7 @@
 import classes from './ProjectContent.module.css';
-import github from '../../images/socials/github.png';
+import ProjectLink from './ProjectLink';
 
-const ProjectContent = ({ description, link, image, textGithub }) => {
+const ProjectContent = ({ description, image, textApp, github, homepage }) => {
   return (
     <>
       <section className={classes.details}>
@@ -10,15 +10,9 @@ const ProjectContent = ({ description, link, image, textGithub }) => {
         </div>
         <p>{description}</p>
       </section>
-      <div className={classes.github}>
-        <a
-          className={classes.link}
-          href={link}
-          target='_blank'
-          rel='noreferrer'>
-          <img src={github} alt='github icon' />
-          <p>{textGithub ?? 'GitHub'}</p>
-        </a>
+      <div className={classes.actions}>
+        <ProjectLink link={homepage} text={textApp} />
+        <ProjectLink link={github} repo={true} />
       </div>
     </>
   );

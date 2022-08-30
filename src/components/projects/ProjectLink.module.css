@@ -1,0 +1,71 @@
+.linkbox {
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+  animation: lightUp 3s ease-in forwards infinite;
+}
+
+.linkbox:first-of-type {
+  margin-bottom: 25px;
+}
+
+.linkbox .link {
+  width: 100%;
+  display: inline-block;
+}
+
+.linkbox .link img {
+  max-width: 17.5%;
+  margin-bottom: 1px;
+}
+
+.linkbox .link p {
+  font-size: 14px;
+  color: #e3e3e3;
+}
+
+@media (min-width: 768px) {
+  .linkbox .link img {
+    max-width: 20%;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .linkbox {
+    margin: 20px auto 0;
+  }
+  .linkbox .link p {
+    font-size: 15px;
+  }
+  .linkbox .link img {
+    max-width: 15%;
+  }
+}
+@media (min-width: 1440px) {
+  .linkbox .link p {
+    font-size: 18px;
+  }
+  .linkbox .link img {
+    max-width: 12.5%;
+  }
+}
+
+@keyframes lightUp {
+  0% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+  20% {
+    transform: scale(1.03);
+    filter: brightness(120%);
+  }
+  40% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+  100% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+}

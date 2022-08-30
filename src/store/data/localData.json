@@ -160,27 +160,26 @@
     "projects": {
       "content": {
         "project-0": {
-          "description": "Eine Online-Visitenkarte und eine kleine Demonstration meiner Fähigkeiten, die ich den Besuchern gerne zeigen würde.",
+          "description": "Internet-Visitenkarte und eine kleine Demonstration meiner technischen Fähigkeiten",
+          "github": "https://github.com/oskarayy/Resume-App",
           "id": "project-0",
-          "title": "Virtueller Lebenslauf"
+          "title": "Lebenslauf App"
         },
         "project-1": {
-          "description": "eine kurze Beschreibung des Projekts von mehr als zwei Wörtern",
+          "description": "Aufgabenliste mit Fälligkeitsdatum und einigen interessanten Funktionen",
+          "github": "https://github.com/oskarayy/to-do-list-1",
+          "homepage": "https://oskarayy.github.io/to-do-list-1/",
           "id": "project-1",
           "title": "Rechner"
         },
         "project-2": {
           "description": "eine kurze Beschreibung des Projekts von mehr als zwei Wörtern",
+          "github": "https://github.com",
           "id": "project-2",
-          "title": "Aufgabenliste"
+          "title": "Kalkulator"
         }
       },
-      "links": {
-        "project-0": "https://github.com/oskarayy/Resume-App",
-        "project-1": "https://github.com/",
-        "project-2": "https://github.com/"
-      },
-      "textGithub": "Sehen Sie meinen Code auf GitHub an",
+      "textApp": "App öffnen",
       "title": "Projekte"
     },
     "resume": {
@@ -559,27 +558,26 @@
     "projects": {
       "content": {
         "project-0": {
-          "description": "An online business card and a small demonstration of my skills that I would like to showcase to visitors.",
+          "description": "An online business card and a small demonstration of my technical skills",
+          "github": "https://github.com/oskarayy/Resume-App",
           "id": "project-0",
-          "title": "My Virtual Resume"
+          "title": "Resume App"
         },
         "project-1": {
-          "description": "A short description of the project, but longer than two words...",
+          "description": "Task list with due date and some interesting features",
+          "github": "https://github.com/oskarayy/to-do-list-1",
+          "homepage": "https://oskarayy.github.io/to-do-list-1/",
           "id": "project-1",
-          "title": "Calculator"
+          "title": "To Do List"
         },
         "project-2": {
           "description": "A short description of the project, but longer than two words...",
+          "github": "https://github.com/",
           "id": "project-2",
-          "title": "To Do List"
+          "title": "Calculator"
         }
       },
-      "links": {
-        "project-0": "https://github.com/oskarayy/Resume-App",
-        "project-1": "https://github.com/",
-        "project-2": "https://github.com/"
-      },
-      "textGithub": "Check out my code on GitHub",
+      "textApp": "Open the App page",
       "title": "Projects"
     },
     "resume": {
@@ -958,27 +956,26 @@
     "projects": {
       "content": {
         "project-0": {
-          "description": "Internetowa wizytówka i mały pokaz moich umiejętności, które chciałbym zaprezentować odwiedzającym.",
+          "description": "Internetowa wizytówka i mały pokaz moich technicznych umiejętności",
+          "github": "https://github.com/oskarayy/Resume-App",
           "id": "project-0",
-          "title": "Moje wirtualne CV"
+          "title": "CV Web App"
         },
         "project-1": {
-          "description": "Opis projektu trochę dłuższy niż dwa słowa.",
+          "description": "Lista zadań z terminem wykonania i kilkoma ciekawymi funkcjami",
+          "github": "https://github.com/oskarayy/to-do-list-1",
+          "homepage": "https://oskarayy.github.io/to-do-list-1/",
           "id": "project-1",
-          "title": "Kalkulator"
+          "title": "Lista Zadań"
         },
         "project-2": {
           "description": "Opis projektu trochę dłuższy niż dwa słowa.",
+          "github": "https://github.com/",
           "id": "project-2",
-          "title": "Lista Zadań"
+          "title": "Kalkulator"
         }
       },
-      "links": {
-        "project-0": "https://github.com/oskarayy/Resume-App",
-        "project-1": "https://github.com/",
-        "project-2": "https://github.com/"
-      },
-      "textGithub": "Zobacz mój kod na GitHub",
+      "textApp": "Otwórz aplikację",
       "title": "Projekty"
     },
     "resume": {

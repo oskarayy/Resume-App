@@ -14,33 +14,27 @@ const ProjectDetail = () => {
   const { projectId } = useParams();
 
   const ctx = useContext(LangContext);
-  const { links, content, textGithub } = ctx.data.projects;
+  const { content, textApp } = ctx.data.projects;
 
   const projects = Object.values(content);
-  const linksArr = Object.values(links);
+
+  const activeIndex = projects.findIndex((project) => project.id === projectId);
+  const activeProject = projects[activeIndex];
 
   const [paths, titles] = [
     projects.map((item) => item.id),
     projects.map((item) => item.title)
   ];
 
-  const activeIndex = projects.findIndex((project) => project.id === projectId);
-  const activeProject = projects[activeIndex];
-  const pageFound = paths.includes(projectId) || !projectId;
-
   replaceProjectsImages(projects);
 
+  const pageFound = paths.includes(projectId) || !projectId;
   if (!pageFound) return <NoPage />;
 
   return (
     <AnimatedDiv>
-      <SubpageTopbar title={titles[activeIndex]} />
-      <ProjectContent
-        description={activeProject.description}
-        image={activeProject.image}
-        link={linksArr[activeIndex]}
-        textGithub={textGithub}
-      />
+      <SubpageTopbar title={activeProject.title} />
+      <ProjectContent textApp={textApp} {...activeProject} />
       <SubpageNavigation
         paths={paths}
         titles={titles}
