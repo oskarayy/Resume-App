@@ -11,6 +11,7 @@ import certJS from '../../images/certificates/cert-js.jpg';
 import certCodeme from '../../images/certificates/cert-codeme.jpg';
 import certReact from '../../images/certificates/cert-react-udemy.jpg';
 import certReactNative from '../../images/certificates/cert-react-native-udemy.jpg';
+import certTypescript from '../../images/certificates/cert-typescript.jpg';
 
 const coursesImages = [
   certBeginner,
@@ -18,7 +19,8 @@ const coursesImages = [
   certJS,
   certCodeme,
   certReact,
-  certReactNative
+  certReactNative,
+  certTypescript
 ];
 
 const Certificate = () => {

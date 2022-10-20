@@ -116,7 +116,7 @@
     margin-bottom: 0;
   }
   .card p:nth-of-type(1) {
-    min-height: 175px;
+    min-height: 130px;
   }
   .card p:last-child {
     margin-bottom: 25px;
@@ -138,7 +138,7 @@
     font-size: 20px;
   }
   .card p:nth-of-type(1) {
-    min-height: 150px;
+    min-height: 120px;
   }
   .card button {
     padding: 7px 14px;
