@@ -173,10 +173,11 @@
           "title": "Rechner"
         },
         "project-2": {
-          "description": "eine kurze Beschreibung des Projekts von mehr als zwei Wörtern",
-          "github": "https://github.com",
+          "description": "Das Projekt ist in Vorbereitung",
+          "github": "#",
+          "homepage": "#",
           "id": "project-2",
-          "title": "Kalkulator"
+          "title": "cyber-maze.com"
         }
       },
       "textApp": "App öffnen",
@@ -243,6 +244,11 @@
             "id": "course-6",
             "subtitle": "Maximilian Schwarzmüller",
             "title": "React Native - Der praktische Leitfaden"
+          },
+          {
+            "id": "course-7",
+            "subtitle": "Maximilian Schwarzmüller",
+            "title": "Understanding Typescript - 2022 Edition"
           }
         ]
       },
@@ -267,10 +273,18 @@
       "experience": {
         "items": [
           {
+            "description": "Installation von Hochstromkreisen für Maschinen und Industriegebäude. Schaffung einer modernen elektrischen Infrastruktur in öffentlichen Gebäuden. ",
+            "id": "exp-item-1",
+            "location": "Schweiz",
+            "subtitle": "Collardi AG",
+            "time": "09/2022 - aktuell",
+            "title": "Industrielle Elektrotechniker"
+          },
+          {
             "description": "Vorbereitung von industriellen Kontrollsystemen für Windturbinen und Plasmageneratoren. Unterauftragnehmer von Branchenführern wie Enercon, Softal, Nordex.",
             "id": "exp-item-1",
             "location": "Deutschland",
-            "subtitle": "Franke+Pahl GMBH",
+            "subtitle": "Franke+Pahl GmbH",
             "time": "06/2021 - 05/2022",
             "title": "Industrielle Elektrotechniker"
           },
@@ -353,10 +367,10 @@
           "Allgemein"
         ],
         "techSkills": [
-          "Schreiben von semantischem HTML- und CSS-Code gemäß der BEM-Spezifikation.",
+          "Schreiben von semantischem HTML- und CSS-Code gemäß der BEM-Spezifikation",
           "CSS Flex und CSS Grid verwenden",
           "SCSS/SACC-Präprozessoren verwenden",
-          "Suche und Manipulation des Aussehens und der Funktionsweise von DOM-Interface-Elementen",
+          "Grundlegende Nutzung der Vorteile der starken Typisierung in TypeScript",
           "Umstrukturierung, Organisation und Nutzung der vom Server abgerufenen Daten",
           "Erstellung reaktiver Single-Page-Webanwendungen mit der React-Bibliothek",
           "Verwendung von Bibliotheken für React wie React Router oder Redux.js",
@@ -571,10 +585,11 @@
           "title": "To Do List"
         },
         "project-2": {
-          "description": "A short description of the project, but longer than two words...",
-          "github": "https://github.com/",
+          "description": "The project is being prepared",
+          "github": "#",
+          "homepage": "#",
           "id": "project-2",
-          "title": "Calculator"
+          "title": "cyber-maze.com"
         }
       },
       "textApp": "Open the App page",
@@ -641,6 +656,11 @@
             "id": "course-6",
             "subtitle": "Maximilian Schwarzmüller",
             "title": "React Native - The Practical Guide (2022)"
+          },
+          {
+            "id": "course-7",
+            "subtitle": "Maximilian Schwarzmüller",
+            "title": "Understanding Typescript - 2022 Edition"
           }
         ]
       },
@@ -665,20 +685,28 @@
       "experience": {
         "items": [
           {
+            "description": "Installation of high-current power circuits for machinery and industrial interiors. Creating modern electrical infrastructure in public-use buildings. ",
+            "id": "exp-item-0",
+            "location": "Switzerland",
+            "subtitle": "Industrial electrical technician",
+            "time": "09/2022 - currently",
+            "title": "Collardi AG"
+          },
+          {
             "description": "Preparation of industrial control systems for wind turbines and plasma generators. Subcontractor for industry leaders such as Enercon, Softal, Nordex.",
             "id": "exp-item-1",
             "location": "Germany",
-            "subtitle": "Franke+Pahl GMBH",
+            "subtitle": "Industrial electrical technician",
             "time": "06/2021 - 05/2022",
-            "title": "Industrial electrical technician"
+            "title": "Franke+Pahl GmbH"
           },
           {
             "description": "Making and testing control system connections for production machines. Preparation of electrical infrastructure in residential and office containers. Subcontractor for industry pioneers such as - Krones, Brückner, Recon.",
             "id": "exp-item-2",
             "location": "Germany",
-            "subtitle": "Own business (self-employment)",
+            "subtitle": "Industrial electrical technician",
             "time": "10/2017 - 10/2020",
-            "title": "Industrial electrical technician"
+            "title": "Own business (self-employment)"
           }
         ]
       },
@@ -754,7 +782,7 @@
           "Writing semantic HTML and SCC code compliant with the BEM specification",
           "Using CSS Flex and CSS Grid",
           "Using preprocesors SCSS/SACC",
-          "Finding and manipulating of the DOM interface elements",
+          "Leveraging the benefits of strong typing in TypeScript",
           "Restructuring, organization and use of data fetched from the server",
           "Creating reactive single page web applications with React",
           "Using React libraries such as React Router or Redux.js",
@@ -969,10 +997,11 @@
           "title": "Lista Zadań"
         },
         "project-2": {
-          "description": "Opis projektu trochę dłuższy niż dwa słowa.",
-          "github": "https://github.com/",
+          "description": "Jestem w trakcie tworzenia projektu",
+          "github": "#",
+          "homepage": "#",
           "id": "project-2",
-          "title": "Kalkulator"
+          "title": "cyber-maze.com"
         }
       },
       "textApp": "Otwórz aplikację",
@@ -1039,6 +1068,11 @@
             "id": "course-6",
             "subtitle": "Maximilian Schwarzmüller",
             "title": "React Native - The Practical Guide (2022)"
+          },
+          {
+            "id": "course-7",
+            "subtitle": "Maximilian Schwarzmüller",
+            "title": "Understanding TypeScript - 2022 Edition"
           }
         ]
       },
@@ -1063,10 +1097,18 @@
       "experience": {
         "items": [
           {
+            "description": "Instalacja wysokoprądowych obwodów zasilania maszyn i budynków przemysłowych. Tworzenie nowoczesnej infrastruktury elektrycznej w budynkach użytku publicznego.",
+            "id": "exp-item-2",
+            "location": "Szwajcaria",
+            "subtitle": "Collardi AG",
+            "time": "09/2022 - obecnie",
+            "title": "Elektrotechnik przemysłowy"
+          },
+          {
             "description": "Przygotowanie industrialnych układów sterowania dla turbin wiatrowych i generatorów plazmy. Podwykonawca liderów branży takich jak - Enercon, Softal, Nordex.",
             "id": "exp-item-1",
             "location": "Niemcy",
-            "subtitle": "Franke+Pahl GMBH",
+            "subtitle": "Franke+Pahl GmbH",
             "time": "06/2021 - 05/2022",
             "title": "Elektrotechnik przemysłowy"
           },
@@ -1152,7 +1194,7 @@
           "Pisanie semantycznego kodu HTML i SCC zgodnego ze specyfikacją BEM",
           "Wykorzystywanie zalet CSS Flex i CSS Grid",
           "Używanie preprocesorów SCSS/SACC",
-          "Wyszukiwanie i manipulowanie wyglądem i działeniem elemenów interfejsu DOM",
+          "Podstawowe wykorzystywanie zalet silnego typowania w TypeScript",
           "Restrukturyzacja, organizacja i wykorzystanie pobranych z serwera dancyh",
           "Tworzenie reaktywnych aplikacji webowych typu Single Page z użyciem biblioteki React",
           "Zarządzanie danymi w przestrzeni globalnej za pomocą biblioteki Redux",

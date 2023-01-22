@@ -29,12 +29,12 @@ export const LangProvider = (props) => {
   };
 
   const refreshDataHandler = useCallback(() => {
-    fetchData(setData);
+    // fetchData(setData);
   }, [fetchData]);
 
-  useEffect(() => {
-    refreshDataHandler();
-  }, [refreshDataHandler]);
+  // useEffect(() => {
+  //   refreshDataHandler();
+  // }, [refreshDataHandler]);
 
   const changeLangHandler = useCallback(
     (lang) => {
