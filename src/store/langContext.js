@@ -1,40 +1,25 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import useFetcher from '../hooks/useFetcher';
+// import useFetcher from '../hooks/useFetcher';
 
 import localData from './data/localData.json';
 
 const initialValues = {
   data: {},
-  isLoading: false,
-  error: null,
+  // isLoading: false,
+  // error: null,
   showLangModal: false,
   onToggleModal: () => {},
-  onChangeLang: () => {},
-  onLocalData: () => {}
+  onChangeLang: () => {}
+  // onLocalData: () => {}
 };
 
 const LangContext = React.createContext(initialValues);
 
 export const LangProvider = (props) => {
-  const { fetchData, langLoading, langError, serverVisitLog, resetErrorState } =
-    useFetcher();
-
-  const [data, setData] = useState(localData);
+  const data = localData;
+  // const [data, setData] = useState(localData);
   const [activeLangData, setLangData] = useState(data.pl);
   const [showLangModal, setShowLangModal] = useState(false);
-
-  const localDataHandler = () => {
-    setData(localData);
-    resetErrorState();
-  };
-
-  const refreshDataHandler = useCallback(() => {
-    // fetchData(setData);
-  }, [fetchData]);
-
-  // useEffect(() => {
-  //   refreshDataHandler();
-  // }, [refreshDataHandler]);
 
   const changeLangHandler = useCallback(
     (lang) => {
@@ -57,22 +42,17 @@ export const LangProvider = (props) => {
     const activeLangLS = localStorage.getItem('activeLanguage');
     changeLangHandler(activeLangLS ?? 'pl');
     if (!activeLangLS) {
-      serverVisitLog();
       setShowLangModal(true);
     }
-  }, [changeLangHandler, serverVisitLog]);
+  }, [changeLangHandler]);
 
   return (
     <LangContext.Provider
       value={{
-        isLoading: langLoading,
-        error: langError,
         data: activeLangData,
         showLangModal,
         onToggleModal: setShowLangModal,
-        onChangeLang: changeLangHandler,
-        onRefresh: refreshDataHandler,
-        onLocalData: localDataHandler
+        onChangeLang: changeLangHandler
       }}>
       {props.children}
     </LangContext.Provider>
